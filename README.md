@@ -5,8 +5,6 @@
 
 **SafeHer** is a comprehensive women’s safety application built with Flutter. It provides one‑tap SOS alerts, live location sharing, fake call simulation, and safety tips to help women feel more secure in everyday situations.
 
-![Setting page](image.png) 
-
 ## Features
 
 - **SOS Button** – Long press or shake phone to instantly notify your emergency contacts.
@@ -30,6 +28,12 @@
 - **Storage**: Shared Preferences (local settings)
 - **Other**: Vibration, audioplayers, just_audio, flutter_phone_direct_caller
 
+## Screenshots
+
+| Home Screen | SOS Alert | Fake Call | Settings |
+| :---: | :---: | :---: | :---: |
+| <img src="assets/images/image-1.png" width="120" alt="Home Screen"> | <img src="assets/images/image-2.png" width="120" alt="SOS Alert"> | <img src="assets/images/image-3.png" width="120" alt="Fake Call"> | <img src="assets/images/image.png" width="120" alt="Settings"> |
+
 ## Getting Started
 
 ### Prerequisites
@@ -44,65 +48,42 @@
    ```bash
    git clone https://github.com/fati-098-ma/SafeHer.git
    cd SafeHer
+   ```
 
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
+3. **Configure Firebase**
+   - Create a Firebase project at firebase.google.com.
+   - Add an Android app with package name `com.example.safeher`.
+   - Download `google-services.json` and place it in `android/app/`.
+   - Enable Email/Password authentication in Firebase Console.
+   - Set up Firestore database in test mode.
 
- Install dependencies
+4. **Run the app**
+   ```bash
+   flutter run
+   ```
 
-bash
-flutter pub get
-
-
-Configure Firebase
-
-Create a Firebase project at firebase.google.com.
-
-Add an Android app with package name com.example.safeher.
-
-Download google-services.json and place it in android/app/.
-
-Enable Email/Password authentication in Firebase Console.
-
-Set up Firestore database in test mode.
-
-Run the app
-
-bash
-flutter run
-
-
-Project Structure
-text
+## Project Structure
+```text
 lib/
 ├── models/          # Data classes (UserModel, EmergencyContact)
 ├── screens/         # UI screens (auth, home, contacts, etc.)
 ├── services/        # Business logic (auth, database, location, sms, etc.)
 ├── utils/           # Constants, themes, helpers
 └── widgets/         # Reusable UI components
-Screenshots
-<!-- Add screenshots here – you can create a /screenshots folder -->
-Home Screen	SOS Alert	Fake Call
-![Home page](image-1.png) ![emergency page](image-2.png)	 ![fake call paeg](image-3.png)
-Contributing
+```
+
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-Contact
+## Contact
 Developer: Muntaha Fatima 
 
-Project Link: https://github.com/fati-098-ma/SafeHer
-
-text
-
----
-
-## Additional Tips
-
-- Add a **LICENSE** file (e.g., MIT) if you want to allow others to use your code.
-- Include a **screenshots** folder in the repository and reference images in the README.
-- Keep the `google-services.json` **out of version control** (already ignored if you added it to `.gitignore`). Never commit API keys or secrets.
-- Write a clear **commit message** for each significant change.
-
-Once you push, your repository will be live on GitHub with a clean README. Good luck with your SafeHer app!
+Project Link: [https://github.com/fati-098-ma/SafeHer](https://github.com/fati-098-ma/SafeHer)
