@@ -32,7 +32,7 @@
 
 | Home Screen | SOS Alert | Fake Call | Settings |
 | :---: | :---: | :---: | :---: |
-| <img src="assets/images/image-1.png" width="120" alt="Home Screen"> | <img src="assets/images/image-2.png" width="120" alt="SOS Alert"> | <img src="assets/images/image-3.png" width="120" alt="Fake Call"> | <img src="assets/images/image.png" width="120" alt="Settings"> |
+| <img src="image-1.png" width="120" alt="Home Screen"> | <img src="image-2.png" width="120" alt="SOS Alert"> | <img src="image-3.png" width="120" alt="Fake Call"> | <img src="/image.png" width="120" alt="Settings"> |
 
 ## Getting Started
 
